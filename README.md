@@ -17,5 +17,8 @@ Access a container.
 `vagrant ssh <container_name>`  
 `ssh root@<local_ip or remote_ip> -p <port> -i <private_key>`
 
+Test ansible connectivity.
+`ansible all -m ping -i ./.vagrant/provisioners/ansible/inventory/vagrant_ansible_inventory `
+
 Destroy the environment.  
 `vagrant destroy -f`
