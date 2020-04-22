@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
             if machine_id == N
                 machine.vm.provision :ansible do |ansible|
                     ansible.limit = "all"
-                    ansible.playbook = "/provisioning/playbook.yml"
+                    ansible.playbook = "./provisioning/playbook.yml"
                 end
             end
         end
