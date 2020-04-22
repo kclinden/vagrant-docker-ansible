@@ -16,3 +16,6 @@ View containers via Docker.
 Access a container.  
 `vagrant ssh <container_name>`  
 `ssh root@<local_ip or remote_ip> -p <port> -i <private_key>`
+
+Destroy the environment.  
+`vagrant destroy -f`
