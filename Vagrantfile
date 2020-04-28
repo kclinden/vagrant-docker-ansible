@@ -1,5 +1,5 @@
 Vagrant.configure("2") do |config|
-    N = 3
+    N = 1
     config.ssh.insert_key = true
     config.ssh.username = "root"
     config.ssh.password = "Passw0rd"
